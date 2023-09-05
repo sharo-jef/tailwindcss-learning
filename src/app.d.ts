@@ -12,7 +12,7 @@ declare global {
 		year: number | null;
 		month: number | null;
 		day: number | null;
-		hour: number | null;
+		hour: number | string;
 	};
 }
 

@@ -3,9 +3,9 @@
 	export let date = `${`${currentDate.getFullYear()}`.padStart(4, '0')}-${`${
 		currentDate.getMonth() + 1
 	}`.padStart(2, '0')}-${`${currentDate.getDate()}`.padStart(2, '0')}`;
-	export let year = +date.slice(0, 4);
-	export let month = +date.slice(5, 7);
-	export let day = +date.slice(8, 10);
+	export let year: number | null = +date.slice(0, 4);
+	export let month: number | null = +date.slice(5, 7);
+	export let day: number | null = +date.slice(8, 10);
 	$: {
 		const dateArray = date.split('-');
 		year = +dateArray[0];

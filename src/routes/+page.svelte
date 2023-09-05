@@ -3,9 +3,9 @@
 	import SearchResults from '$lib/SearchResults.svelte';
 
 	let date: string;
-	let year: number;
-	let month: number;
-	let day: number;
+	let year: number | null;
+	let month: number | null;
+	let day: number | null;
 	let hour: number | string;
 </script>
 
