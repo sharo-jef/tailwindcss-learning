@@ -6,7 +6,7 @@
 	let year: number;
 	let month: number;
 	let day: number;
-	let hour: number;
+	let hour: number | string;
 </script>
 
 <div class="mx-auto w-full container pt-10 px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@
 					name="hour"
 					bind:value={hour}
 				>
-					<option selected value="-1">指定なし</option>
+					<option selected>指定なし</option>
 					{#each [...Array(24).keys()] as h}
 						<option value={h}>{h}時台</option>
 					{/each}
