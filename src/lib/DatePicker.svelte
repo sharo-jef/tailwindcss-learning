@@ -18,7 +18,9 @@
 </script>
 
 <input
+	name="date"
 	type="date"
 	bind:value={date}
-	class="p-2 border-b border-b-1 border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+	class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+	pattern="\d{4}-\d{2}-\d{2}"
 />

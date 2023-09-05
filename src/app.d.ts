@@ -7,6 +7,13 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+
+	type QueryData = {
+		year: number | null;
+		month: number | null;
+		day: number | null;
+		hour: number | null;
+	};
 }
 
 export {};
