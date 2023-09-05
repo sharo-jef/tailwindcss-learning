@@ -94,7 +94,7 @@
 			{SITE_NAME}
 		</div>
 		<div class="mt-8 text-center text-sm leading-6 text-slate-500 dark:text-slate-400">
-			Created by sharo-jef.
+			Made by sharo-jef.
 		</div>
 		<div
 			class="mt-16 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700 dark:text-slate-500"
