@@ -19,7 +19,7 @@
 					name="hour"
 					bind:value={hour}
 				>
-					<option selected>指定なし</option>
+					<option selected value="">指定なし</option>
 					{#each [...Array(24).keys()] as h}
 						<option value={h}>{h}時台</option>
 					{/each}
