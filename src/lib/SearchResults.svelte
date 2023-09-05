@@ -3,7 +3,7 @@
 		year: null,
 		month: null,
 		day: null,
-		hour: null
+		hour: ''
 	};
 </script>
 
