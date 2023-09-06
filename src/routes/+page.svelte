@@ -25,25 +25,25 @@
 					{/each}
 				</select>
 				<select
-					class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+					class="h-10 p-2 outline-none rounded-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
 					name="custom1"
 				>
 					<option selected value="-1">指定なし</option>
 				</select>
 				<select
-					class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+					class="h-10 p-2 outline-none rounded-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
 					name="custom2"
 				>
 					<option selected value="-1">指定なし</option>
 				</select>
 				<select
-					class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+					class="h-10 p-2 outline-none rounded-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
 					name="custom3"
 				>
 					<option selected value="-1">指定なし</option>
 				</select>
 				<select
-					class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+					class="h-10 p-2 outline-none rounded-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
 					name="custom4"
 				>
 					<option selected value="-1">指定なし</option>
@@ -55,7 +55,7 @@
 				/>
 			  -->
 				<button
-					class="px-4 py-2 ml-4 text-gray-50 bg-black dark:border-b dark:border-gray-600 dark:bg-inherit dark:text-gray-400"
+					class="px-4 py-2 ml-4 rounded-none text-gray-50 bg-black dark:border-b dark:border-gray-600 dark:bg-inherit dark:text-gray-400"
 					>検索</button
 				>
 			</form>
