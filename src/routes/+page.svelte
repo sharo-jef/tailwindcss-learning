@@ -15,7 +15,7 @@
 			<form class="p-6 flex flex-wrap gap-4 justify-center">
 				<DatePicker bind:date bind:year bind:month bind:day />
 				<select
-					class="h-10 p-2 outline-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
+					class="h-10 p-2 outline-none rounded-none border-b border-gray-600 dark:bg-gray-800 dark:text-gray-400"
 					name="hour"
 					bind:value={hour}
 				>
